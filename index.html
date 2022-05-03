@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body class="bg-dark">
+    <div class="wrapper">
+        <header>Todo App</header>
+        <div class="inputField">
+            <input type="text" placeholder="Digite uma nova tarefa" id="entrada" name="entrada">
+            <button>+</button>
+        </div>
+        <ul class="todoList">
+            <!-- ! os dados vem do armazenamento local via JS-->
+        </ul>
+        <div class="footer">
+            <span>Você tem 0 tarefas pendentes</span> <!-- ? O 0 sera substituido por um codigo JavaScript -->
+            <button>Apagar tudo</button>
+        </div>
+    </div>
+
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
